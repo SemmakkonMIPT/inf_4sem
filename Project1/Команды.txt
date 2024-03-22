@@ -1,0 +1,4 @@
+cd /D D:\Informatics\inf_4sem\Project1\build
+for %i in (*) do if not "%i"=="hero.png" del %i & cmake -G "MinGW Makefiles" .. & cmake --build .
+player_movement.exe
+
